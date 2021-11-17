@@ -5,4 +5,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as A11:
     while True:
         RECVdata, fRoMaDdr = A11.recvfrom(1024)
         print("data: {}, addr: {}".format(RECVdata, fRoMaDdr))
-        
+        aaa
